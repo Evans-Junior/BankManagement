@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "c:/Users/Evans Kumi/Documents/Level 300/Intermediate Computer Programming/Labs/MidSemester/Evanstesting",
+      "program": "c:/Users/Evans Kumi/Documents/Level 300/Intermediate Computer Programming/Labs/MidSemester/Evanstesting/build/Debug/outDebug"
+    }
+  ]
+}
