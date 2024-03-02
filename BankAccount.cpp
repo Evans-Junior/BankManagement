@@ -82,22 +82,23 @@ public:
      */
 
     BankAccount operator+(BankAccount &b){
-        this->balance += b.balance;
-        if (this->accountHolderName.empty()){
+        BankAccount temp;
+        temp.balance = this->balance + b.balance;
+        if (temp.accountHolderName.empty()){
             cout<<"Enter the name of the new account holder: ";
             string name;
             cin>>name;
-            this->accountHolderName=name;
+            temp.accountHolderName=name;
 
         }
-        if (this->accountNumber.empty()){
+        if (temp.accountNumber.empty()){
             cout<<"Enter the new account number: ";
             string accNum;
             cin>>accNum;
-            this->accountNumber = accNum;
+            temp.accountNumber = accNum;
             cout<<endl;
         }
-        return *this;
+        return temp;
     }
 
     /**
@@ -268,7 +269,7 @@ int main(){
     bankAccounts.push_back(BankAccount("123458","Mr. Cephas Kofi",3000));
     bankAccounts.push_back(BankAccount("123459","Mr. Evans Kumi",4000));
 
-    cout<< "Merge two bank Accounts "<<endl;
+    cout<< "Merge two bank Accounts to create a new Account"<<endl;
 
     //merge two accounts
     BankAccount mergedAccount = bankAccounts[0] + bankAccounts[1];
