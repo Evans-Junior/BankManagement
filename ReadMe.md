@@ -4,6 +4,7 @@ This program implements a simple bank account management system using C++. It al
 
 ## Features
 
+- Merging two accounts to form a new account
 - Create bank accounts (generic `BankAccount`, `SavingsAccount`, and `CheckingAccount`).
 - Deposit money into accounts.
 - Withdraw money from accounts (with overdraft protection for checking accounts).
@@ -32,6 +33,8 @@ Follow these steps to compile and run the program:
     ```bash
     ./main
     ```
+
+    **Options**: If the steps to run does the code don't work. Click the button on top of the vscode IDE to run it.
 
 4. **Follow Instructions**: Follow the instructions displayed in the terminal to interact with the program.
 
