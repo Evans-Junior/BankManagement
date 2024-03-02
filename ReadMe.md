@@ -49,4 +49,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Author
 
-- [Evans Kumi](https://github.com/Evans_Junior)
+- [Evans Kumi](https://github.com/Evans_Junior/BankManagement)
